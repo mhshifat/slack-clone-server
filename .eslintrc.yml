@@ -1,0 +1,33 @@
+env:
+  browser: true
+  es6: true
+extends:
+  - airbnb-base
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+rules: {
+  "quotes": [2, "double"],
+  "linebreak-style": ["off"],
+  "comma-dangle": ["off"],
+  "import/prefer-default-export": ["off"],
+  "func-names": ["off"],
+  "space-before-function-paren": ["off"],
+  "prefer-arrow-callback": ["off"],
+  "no-return-await": ["off"],
+  "arrow-parens": ["off"],
+  "implicit-arrow-linebreak": ["off"],
+  "consistent-return": ["off"],
+  "nonblock-statement-body-position": ["off"],
+  "curly": ["off"],
+  "no-underscore-dangle": ["off"],
+  "operator-linebreak": ["off"],
+  "import/no-cycle": ["off"],
+  "no-confusing-arrow": ["off"],
+  "prefer-destructuring": ["off"],
+  "object-curly-newline": ["off"],
+  "function-paren-newline": ["off"],
+}
