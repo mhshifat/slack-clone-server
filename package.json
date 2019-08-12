@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/server",
     "serve": "nodemon --exec babel-node src/server",
-    "compile": "babel src -d dist",
+    "build": "babel src -d dist",
     "fix": "eslint src --fix"
   },
   "author": "Mehedi Hassan Shifat",
